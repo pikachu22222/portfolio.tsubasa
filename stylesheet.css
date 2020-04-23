@@ -1,0 +1,45 @@
+header {
+  height: 100px;
+  background-color: gray;
+  color: white;
+  opacity: 0.5;
+}
+
+.hedaer-list li {
+  color: black;
+  padding: 30px 15px;
+  margin: 0 auto;
+  list-style: none;
+  float: right;
+  font-size: 24px
+
+}
+
+main {
+  height: 500px
+
+}
+
+ .title {
+  padding-bottom: 30px;
+  color: #02ccba;
+  font-size: 50px;
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  background-color: darkgray;
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-list li {
+  list-style: none;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 30px 15px
+}
