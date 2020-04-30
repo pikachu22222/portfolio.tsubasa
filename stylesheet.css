@@ -1,45 +1,251 @@
+*{
+  font-family: Times New Roman;
+}
+
+body {
+
+}
+
 header {
-  height: 100px;
-  background-color: gray;
+  display: fixed;
+  font-weight: bold;
+  font-family: Times New Roman;
+  height: 80px;
+  border-bottom: 0.3px solid black;
   color: white;
-  opacity: 0.5;
+  padding-top: 30px
 }
 
-.hedaer-list li {
-  color: black;
+.hedaer-list a {
+  font-family: Times New Roman;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #AFEEEE;
+  font-size: 24px;
   padding: 30px 15px;
-  margin: 0 auto;
-  list-style: none;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  margin: 20px;
+  display: inline;
+  padding-right: 20px;
+}
+
+header nav {
   float: right;
-  font-size: 24px
-
+  margin-top: 10px;
 }
 
-main {
-  height: 500px
-
+header a:hover {
+  color: black;
 }
+
+   /* home */
+
+.main {
+    height: 600px;
+}
+
 
  .title {
+  margin: auto;
+  padding-top: 230px;
   padding-bottom: 30px;
   color: #02ccba;
-  font-size: 50px;
+  font-size: 55px;
   font-family: Times New Roman;
   text-align: center;
 }
 
-footer {
-  height: 100px;
-  background-color: darkgray;
+.title span {
+  font-size: 32px;
+  font-family: Times New Roman;
+  text-align: center;
+  color: #02ccba;
+}
+
+.sns {
+  text-align: center;
+  margin-top: 120px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.sns a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.btn-flat-border-facebook {
+  font-size: 16px;
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  color: #4169E1;
+  border: solid 0.5px #4169E1 ;
+  transition: .4s;
+}
+
+.btn-flat-border-facebook:hover{
+  background-color: #4169E1;
   color: white;
-  opacity: 0.5;
+}
+
+.btn-flat-border-twitter {
+  font-size: 16px;
+  margin: 20px;
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  color: #87CEFA;
+  border: solid 1px #87CEFA ;
+  transition: .4s;
+}
+
+.btn-flat-border-twitter:hover {
+  background-color: #87CEFA;
+  color: white;
+}
+
+
+.btn-flat-border-instagram {
+  font-size: 16px;
+  margin: 20px;
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  color: #FF9933;
+  border: solid 1px #FF9933 ;
+  transition: .4s;
+}
+
+.btn-flat-border-instagram:hover {
+  background-color: #FF9933;
+  color: white;
+  border: solid 1px white ;
+}
+  /* about */
+
+.contents-1 {
+  height: 600px;
+}
+
+.title-1 {
+  font-size: 55px;
+  font-family: Times New Roman;
+  text-align: center;
+  color: #02ccba;
+}
+
+.profile {
+  padding-top:25px;
+  font-family: Times New Roman;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-list {
+  font-family: Times New Roman;
+  font-size: 36px;
+}
+
+.profile-list ul {
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.profile-list li {
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+}
+
+   /* contact */
+.main-2 {
+  height: 600px;
+}
+
+.title-2{
+  font-size: 55px;
+  color: #02ccba;
+  padding-top: 0;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.firstname {
+  font-size: 24px;
+  text-align: center;
+}
+
+.email {
+  margin-left: 22px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.message {
+  margin-right: 8px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.submit {
+  font-size: 24px;
+  text-align: center;
+}
+
+.space {
+  padding-bottom: 20px;
+}
+
+/* works */
+.main-3 {
+  height: 600px;
+}
+
+.title-3 {
+  font-size: 55px;
+  color: #02ccba;
+  padding-top: 0;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 100px;
+  border-top: 0.3px solid black;
+  color: white;
+}
+
+.footer-list a {
+  font-weight: bold;
+  font-family: Times New Roman;
+  text-decoration: none;
+  color: #AFEEEE;
+    padding: 30px 15px;
+}
+
+.footer a:hover {
+  color: black;
 }
 
 .footer-list li {
   list-style: none;
   float: right;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 32px;
   margin: 0 auto;
   padding: 30px 15px
 }
