@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font=awesome/4.3.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <title>tsubasa_portfolio_site</title>
   </head>
   <body>
     <header>
       <div class="hedaer-logo"></div>
+      <nav>
       <div class="hedaer-list">
        <ul>
-        <li><a href="contact.html">contact</a></li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
         <li><a href="works.html">Works</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">contact</a></li>
        </ul>
-      </div>
+     </div>
+   </nav>
     </header>
-    <a href="index.html">Go to home</a>
-      <div class="top-wrapper">
+
+      <div class="main-2">
+      <h1 class="title-2">Contact</h1>
+    <form action="process.php" method="POST">
+
+      <div class="firstname">
+      <label>First-name</label>
+      <input type="text" class="firstname" name="name" placeholder="Enter your name">
+
+      <div class="space">
       </div>
-    <main>
-      <div class="box-1">
-        
-      <h1 class="title">Contact</h1>
-      </div>
-    </main>
-    <footer>
+        <div class="email">
+            <br>
+          <label>Email</label>
+          <input type="email" class="email" name="email" placeholder="Enter your E-mail">
+        </div>
+        <div class="space">
+        </div>
+        <br>
+        <div class="message">
+          <label>Message</label>
+          <textarea name="message" class="message"></textarea>
+        </div>
+
+         <div class="submit">
+        <br>
+        <input type="submit" name="submit" value="submit[送信]" class="submit">
+         </div>
+ </form>
+ </div>
+ </div>
+    <footer class="footer">
       <div class="footer-list">
         <li><a href="contact.html">Contact</a></li>
         <li><a href="works.html">Works</a></li>
